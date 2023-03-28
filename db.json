@@ -5,16 +5,16 @@
       "name": "Shoyu Ramen",
       "restaurant": "Nonono",
       "image": "./assets/ramen/shoyu.jpg",
-      "rating": 7,
-      "comment": "Delish. Can't go wrong with a classic!"
+      "rating": "3000",
+      "comment": "I love you 3000!"
     },
     {
       "id": 2,
       "name": "Naruto Ramen",
       "restaurant": "Naruto",
       "image": "./assets/ramen/naruto.jpg",
-      "rating": 10,
-      "comment": "My absolute fave!"
+      "rating": "10",
+      "comment": "not 10/10...more like 10/1000"
     },
     {
       "id": 3,
@@ -37,8 +37,32 @@
       "name": "Kojiro Red Ramen",
       "restaurant": "Ramen-Ya",
       "image": "./assets/ramen/kojiro.jpg",
-      "rating": 6,
-      "comment": "Perfect for a cold night."
+      "rating": "-4",
+      "comment": "I threw up at least 4 times...that's why it's -4."
+    },
+    {
+      "name": "Noodles Yum Yum",
+      "restaurant": "Yum Yum Noodles",
+      "image": "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg",
+      "rating": "3",
+      "comment": "Meh.",
+      "id": 6
+    },
+    {
+      "name": "Crock Pot Ramen",
+      "restaurant": "Recipes That CROCK!",
+      "image": "https://i2.wp.com/www.recipesthatcrock.com/wp-content/uploads/2020/12/Ramen-Crock-Pot-Beef-and-Noodles-Recipe-2s.jpg",
+      "rating": "10",
+      "comment": "Nothing beats home cooked ramen!",
+      "id": 7
+    },
+    {
+      "name": "Spagetti",
+      "restaurant": "Tony's Italian Joint",
+      "image": "https://hannablog.oktibor.com/wp-content/uploads/2017/09/bolognai_spagetti-620x379.jpg",
+      "rating": "69",
+      "comment": "This isn't ramen...but it sure is DELICIOUS!  Thanks Tony!",
+      "id": 8
     }
   ]
 }
