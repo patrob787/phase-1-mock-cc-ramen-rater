@@ -63,6 +63,13 @@ header {
   bottom: 20px;
 }
 
+button {
+  padding: 0.5rem;
+  width: 25%;
+  color: white;
+  background-color: black;
+}
+
 form {
   margin: 1rem 0;
   width: 300px;
