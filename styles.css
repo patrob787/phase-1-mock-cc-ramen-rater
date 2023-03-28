@@ -65,7 +65,7 @@ header {
 
 button {
   padding: 0.5rem;
-  width: 100%;
+  font-weight: bold;
   margin-top: 5px;
   color: white;
   background-color: black;

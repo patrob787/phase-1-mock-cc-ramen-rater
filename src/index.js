@@ -2,7 +2,7 @@
 let ramenMenu = document.getElementById('ramen-menu');
 let ramenDetail = document.getElementById('ramen-detail');
 let ramenComment = document.getElementById('ramen-comments');
-let allRamen = {};
+let allRamen = [];
 let featuredRamen = {};
 
 
@@ -102,13 +102,19 @@ updateForm.addEventListener('submit', (e) => {
     .then(data => renderRamenDetails(data))
 })
 
-// let deleteButton = document.createElement('button')
-// deleteButton.innerText = "Delete This Ramen";
-// ramenComment.appendChild(deleteButton)
 
-// deleteButton.addEventListener('click', (e) => {
-//     console.log(e);
+//Deletes Ramen's from Menu Div and re-assigns featured ramen
+let deleteButton = document.querySelector('#delete')
 
-//     delete featuredRamen;
-// })
+deleteButton.addEventListener('click', (e) => {
+    //console.log(e);
+
+    let newAllRamen = allRamen.filter(ramen => ramen.id !== featuredRamen.id)
+    
+    allRamen = newAllRamen;
+    ramenMenu.innerHTML = "";
+    renderRamen(allRamen);
+    featuredRamen = allRamen[0]
+    renderRamenDetails(featuredRamen)
+})
 

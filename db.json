@@ -5,8 +5,8 @@
       "name": "Shoyu Ramen",
       "restaurant": "Nonono",
       "image": "./assets/ramen/shoyu.jpg",
-      "rating": "3000",
-      "comment": "I love you 3000!"
+      "rating": "5",
+      "comment": "It's passable as Ramen."
     },
     {
       "id": 2,
