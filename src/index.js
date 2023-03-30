@@ -109,9 +109,13 @@ let deleteButton = document.querySelector('#delete')
 deleteButton.addEventListener('click', (e) => {
     //console.log(e);
 
-    let newAllRamen = allRamen.filter(ramen => ramen.id !== featuredRamen.id)
+    allRamen = allRamen.filter(ramen => ramen.id !== featuredRamen.id)
     
-    allRamen = newAllRamen;
+    fetch(`http://localhost:3000/ramens/${featuredRamen.id}`, {
+        method: "DELETE"
+    }).then(resp => resp.json())
+    .then(data => console.log(data));
+
     ramenMenu.innerHTML = "";
     renderRamen(allRamen);
     featuredRamen = allRamen[0]
